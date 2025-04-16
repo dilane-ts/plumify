@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Prume - Application de Tri de Prunes du Cameroun 🍑
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Prume est une application mobile innovante conçue pour faciliter le tri des prunes du Cameroun. Grâce à un modèle de réseau de neurones convolutifs (CNN) intégré, l'application permet d'analyser et de classer les prunes en fonction de leurs caractéristiques visuelles.
 
-## Get started
+## Fonctionnalités principales
 
-1. Install dependencies
+- 📸 **Capture d'image** : Prenez une photo d'une prune directement depuis l'application.
+- 🖼️ **Chargement d'image** : Importez une image de votre galerie pour analyse.
+- 🤖 **Analyse intelligente** : Utilise un modèle CNN pour classer les prunes selon leur qualité ou leur catégorie.
+- 📊 **Résultats détaillés** : Obtenez des informations sur la qualité et les caractéristiques de la prune.
+
+## Technologies utilisées
+
+- **React Native** : Framework pour le développement mobile multiplateforme.
+- **Expo** : Plateforme pour simplifier le développement et le déploiement.
+- **CNN (Convolutional Neural Network)** : Modèle d'apprentissage automatique pour l'analyse d'images.
+- **Expo Router** : Système de routage basé sur les fichiers pour une navigation fluide.
+
+## Installation et démarrage
+
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/votre-utilisateur/prume.git
+   cd prume
+   ```
+
+2. Installez les dépendances :
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Lancez l'application :
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Scannez le QR code avec votre appareil ou utilisez un émulateur Android/iOS.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Structure du projet
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **app/** : Contient les écrans et les composants principaux de l'application.
+- **assets/** : Images et ressources statiques.
+- **styles/** : Fichiers de style pour une interface utilisateur cohérente.
+- **models/** : Contient le modèle CNN pour l'analyse des prunes (si applicable).
 
-## Get a fresh project
+## Contribution
 
-When you're ready, run:
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer l'application ou ajouter de nouvelles fonctionnalités, suivez ces étapes :
 
-```bash
-npm run reset-project
-```
+1. Forkez le projet.
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalite`).
+3. Faites vos modifications et validez-les (`git commit -m "Ajout de ma fonctionnalité"`).
+4. Poussez vos modifications (`git push origin feature/ma-fonctionnalite`).
+5. Ouvrez une Pull Request.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Licence
 
-## Learn more
+Ce projet est sous licence [MIT](LICENSE).
 
-To learn more about developing your project with Expo, look at the following resources:
+## À propos
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Prume a été développé pour soutenir les agriculteurs et les commerçants du Cameroun en leur fournissant un outil simple et efficace pour le tri des prunes. Avec l'aide de l'intelligence artificielle, nous espérons améliorer la qualité et la productivité dans ce secteur.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+**Contact** : Pour toute question ou suggestion, veuillez nous contacter à [lefakongdilame@gmail.com](mailto:lefakongdilame@gmail.com).
